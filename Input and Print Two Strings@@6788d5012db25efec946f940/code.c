@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     char a[500];
-    getf(a,sizeof(a),stdin);
+    fgets(a,sizeof(a),stdin);
     printf("You entered: %s",a);
     return 0;
 }
