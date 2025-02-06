@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     char name[400],hobby[400];
     int age;
