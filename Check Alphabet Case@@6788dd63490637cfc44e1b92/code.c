@@ -13,6 +13,9 @@ int main() {
     else if(a>='a' && a<='z'){
         printf("Lowercase");
     }
+    else{
+        printf("Not and alphabet");
+    }
 
     return 0;
 }
