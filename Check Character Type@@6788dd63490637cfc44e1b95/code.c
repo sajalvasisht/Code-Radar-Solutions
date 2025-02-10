@@ -5,9 +5,6 @@ char* welcome() {
 }
 
 int main() {
-    #include <stdio.h>
-
-int main() {
     char ch;
     scanf("%c", &ch);
     
