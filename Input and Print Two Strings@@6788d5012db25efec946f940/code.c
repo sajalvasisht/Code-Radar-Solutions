@@ -5,10 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    char a[500];
-    char b[500];
-    fgets(a,sizeof(a),stdin);
-    fgets(b,sizeof(b),stdin);
-    printf("You entered: %s and %s",a,b);
+    char x[500],y[600];
+    scanf("%c %c",&x,&y);
+    printf("You entered: %c and %c",x,y);
     return 0;
 }
